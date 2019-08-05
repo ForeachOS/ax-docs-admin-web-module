@@ -24,13 +24,13 @@ public class AdminUiConfiguration
 {
 	@EventListener(condition = "#template.templateName=='adminWeb'") # <1>
 	public void registerCustomCss( BuildTemplateWebResourcesEvent template ) {
-		template.add( new WebResource( WebResource.CSS,
-		                               "adminweb-layout-overrides",
-		                               "/static/demo/css/layout-admin-web.css", # <2>
-		                               WebResource.VIEWS ) );
+	    template.applyResourceRules(
+                	WebResourceRule.add( css( "@static:/demo/css/layout-admin-web.css" ) ) # <2>
+                        	.withKey( "adminweb-layout-overrides" )
+	                        .toBucket( CSS )
+        	);
 	}
 }
 ----
 <1> A `WebResource` will be registered for the admin web template.
-<2> The path of the `WebResource` file is relative to the `resources/views` directory.
-This means that the file is located in `resources/views/demo/css/layout-admin-web.css`.
+<2> This means that the file is located in `resources/views/demo/css/layout-admin-web.css`.

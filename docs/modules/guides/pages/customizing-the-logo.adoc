@@ -48,7 +48,7 @@ public class AdminUiConfiguration
 	@EventListener(condition = "#template.templateName=='adminWeb'") # <1>
 	public void registerCustomCss( BuildTemplateWebResourcesEvent template ) {
 		template.applyResourceRules(
-                	WebResourceRule.add( css( "@static:/static/demo/css/adminweb-logo.css" ) ) # <2>
+                	WebResourceRule.add( css( "@static:/demo/css/adminweb-logo.css" ) ) # <2>
                         	.withKey( AdminWebWebResources.NAME + "-logo" )
                         	.replaceIfPresent( false )
 	                        .toBucket( CSS )
