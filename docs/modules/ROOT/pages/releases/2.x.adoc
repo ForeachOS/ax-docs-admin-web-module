@@ -21,6 +21,6 @@
 [#2-0-0]
 == 2.0.0.RELEASE
 
-* AdminWebModule now depends on https://across.foreach.be/modules/BootstrapUiModule[BootstrapUiModule]
+* AdminWebModule now depends on https://across.dev/modules/BootstrapUiModule[BootstrapUiModule]
 * the login page now provides an attribute *isLoginPage* that is accessible in the global template
 * added the <<page-content-structure,`PageContentStructure` with corresponding template>> to facilitate layouting admin pages

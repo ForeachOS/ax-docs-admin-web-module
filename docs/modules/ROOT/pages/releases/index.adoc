@@ -29,15 +29,15 @@ AdminWebModule follows a https://semver.org[semantic versioning] scheme.
 |===
 |Module |Type |Description
 
-|https://across.foreach.be/modules/BootstrapUiModule[BootstrapUiModule]
+|https://across.dev/modules/BootstrapUiModule[BootstrapUiModule]
 |required
 |Required for building the basic administration UI.
 
-|https://across.foreach.be/modules/SpringSecurityModule[SpringSecurityModule]
+|https://across.dev/modules/SpringSecurityModule[SpringSecurityModule]
 |required
 |Provides the security infrastructure.
 
-|https://across.foreach.be/modules/ApplicationInfoModule[ApplicationInfoModule]
+|https://across.dev/modules/ApplicationInfoModule[ApplicationInfoModule]
 |optional
 |Sets the _admin web title_ and _remember-me_ cookie name if not set explicitly.
 |===
