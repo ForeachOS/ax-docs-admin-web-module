@@ -1,6 +1,6 @@
 name: admin-web-module
 title: "Module: Admin Web"
-version: master
+version: 4.0.0-SNAPSHOT
 nav:
 - modules/ROOT/nav.adoc
 - modules/guides/nav.adoc
