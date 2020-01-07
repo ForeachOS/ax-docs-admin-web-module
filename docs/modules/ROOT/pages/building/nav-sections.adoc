@@ -80,6 +80,7 @@ public void registerMenuItem( AdminMenuEvent adminMenuEvent ) {
 }
 ----
 
+[#exclude-from-breadcrumb]
 == Excluding an item from the breadcrumb
 By default all `Menu` items will be included in the breadcrumb.
 Explicitly excluding an item can be done by setting the *adminMenu:breadcrumb* attribute to `false`.
