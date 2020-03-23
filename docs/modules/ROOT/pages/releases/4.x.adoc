@@ -4,6 +4,5 @@
 == 4.0.0.RELEASE
 * *Requires Across 5.0.0.*
 
-* Base changes changes of changed dependencies
 * IconSet browser added to developer tools
 * `AdminWebIcons` configures the used icons in AdminWebModule
