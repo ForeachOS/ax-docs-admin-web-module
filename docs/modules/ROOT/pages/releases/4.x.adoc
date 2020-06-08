@@ -1,0 +1,9 @@
+= 4.x.x release notes
+
+[#4-0-0]
+== 4.0.0.RELEASE
+* *Requires Across 5.0.0.*
+
+* IconSet browser added to developer tools
+* `AdminWebModuleIcons` configures the used icons in AdminWebModule
+* if development mode is active, the default layout will include the `Menu.getPath()` as data attribute on the generated nav items (top, sidebar and breadcrumb)
